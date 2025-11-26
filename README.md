@@ -3,24 +3,6 @@ this is encoding bot which can add hardsubtitle to video which is shared to him
 import os
 import logging
 import tempfile
-import asyncio
-import subprocess
-import requests
-import time
-import json
-import math
-import random
-from datetime import datetime
-from telegram import Update
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
-from telegram.constants import ParseMode
-
-# Set up logging
-logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
-)
-logger = logging.getLogger(__name__)
 
 START_TIME = time.time()
 
